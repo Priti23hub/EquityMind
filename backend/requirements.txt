@@ -1,0 +1,14 @@
+# Session 01 — LLM & Agent Foundations
+fastapi==0.139.0
+uvicorn[standard]==0.50.0
+openai==2.44.0
+python-dotenv==1.2.2
+
+# Session 02 — LangChain & LangGraph
+langchain-openai==1.3.3
+langgraph==1.2.7
+
+# Session 03 — Retrieval & RAG
+chromadb==1.5.9
+pypdf==6.14.2
+langchain-text-splitters==1.1.2
