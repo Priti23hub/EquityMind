@@ -7,8 +7,7 @@ import streamlit as st
 
 import os
 
-BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
-
+BACKEND_URL = os.getenv("BACKEND_URL", "http://host.docker.internal:8000")
 
 def get_sse_events(response):
     """Yield JSON objects from the backend's one-line SSE data messages."""
